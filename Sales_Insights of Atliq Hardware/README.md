@@ -1,5 +1,4 @@
-# Sales Insights of Atliq Hardware
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/5bb733cb-de8d-4906-9772-3306df8ef6de" />
+# Sales Insights Data Analysis Project
 
 ## Project Overview
 
@@ -228,7 +227,6 @@ MySQL DB → Power BI → Clean Data → Create Model → Build Dashboard
 - **Total Revenue** = `SUM(transactions[sales_amount])`
 - **Total Sales Qty** = `SUM(transactions[sales_qty])`
 - **YoY Growth %** = `DIVIDE([Total Revenue] - [Revenue LY], [Revenue LY], 0)`
-
 
 
 
