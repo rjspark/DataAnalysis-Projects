@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d0f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111114;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="filterPanelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e1a4a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e1a3a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0e20;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chartPanelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#141824;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0e1220;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="kpiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#141418;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rightPanelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#141824;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0e1220;stop-opacity:1" />
+    </linearGradient>
+    <filter id="softShadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <clipPath id="roundedMain">
+      <rect width="1280" height="720" rx="16" ry="16"/>
+    </clipPath>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.09" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.02" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c5cbf;stop-opacity:0" />
+      <stop offset="30%" style="stop-color:#7c5cbf;stop-opacity:0.6" />
+      <stop offset="70%" style="stop-color:#4a8fe8;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#4a8fe8;stop-opacity:0" />
+    </linearGradient>
+    <radialGradient id="meshSpot1" cx="30%" cy="25%" r="65%">
+      <stop offset="0%" style="stop-color:#7c3dbf;stop-opacity:0.45" />
+      <stop offset="100%" style="stop-color:#7c3dbf;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="meshSpot2" cx="75%" cy="72%" r="60%">
+      <stop offset="0%" style="stop-color:#3a1a6e;stop-opacity:0.55" />
+      <stop offset="100%" style="stop-color:#3a1a6e;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="ambientGlow1" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" style="stop-color:#1a2e4a;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#1a2e4a;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="ambientGlow2" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" style="stop-color:#1a1a3a;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#1a1a3a;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="warmGlow" cx="50%" cy="100%" r="50%">
+      <stop offset="0%" style="stop-color:#2a1f3d;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#2a1f3d;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="violetGlow" cx="50%" cy="100%" r="55%">
+      <stop offset="0%" style="stop-color:#1a1040;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#1a1040;stop-opacity:0" />
+    </radialGradient>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.8" fill="#ffffff" opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <!-- MAIN BACKGROUND -->
+  <rect width="1280" height="720" rx="16" fill="url(#bgGrad)" clip-path="url(#roundedMain)"/>
+  <rect width="1280" height="720" rx="16" fill="#1a1a2e" opacity="0.15" clip-path="url(#roundedMain)"/>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- TITLE BAR — 62px tall for title text       -->
+  <!-- ══════════════════════════════════════════ -->
+  <rect x="0" y="0" width="1280" height="62" fill="#0a0a0e" opacity="0.65"/>
+  <rect x="0" y="61" width="1280" height="1.5" fill="url(#accentLine)" opacity="0.55"/>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- KPI CARDS — y=70, height=80 (larger cards) -->
+  <!-- 5 cards, x=235 to 1268, width=197, gap=10  -->
+  <!-- ══════════════════════════════════════════ -->
+
+  <!-- KPI 1 -->
+  <rect x="235" y="70" width="197" height="80" rx="13" fill="url(#kpiGrad)" filter="url(#softShadow)"/>
+  <rect x="235" y="70" width="197" height="80" rx="13" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+  <rect x="236" y="71" width="195" height="1" fill="#ffffff" opacity="0.07"/>
+
+  <!-- KPI 2 -->
+  <rect x="444" y="70" width="197" height="80" rx="13" fill="url(#kpiGrad)" filter="url(#softShadow)"/>
+  <rect x="444" y="70" width="197" height="80" rx="13" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+  <rect x="445" y="71" width="195" height="1" fill="#ffffff" opacity="0.07"/>
+
+  <!-- KPI 3 -->
+  <rect x="653" y="70" width="197" height="80" rx="13" fill="url(#kpiGrad)" filter="url(#softShadow)"/>
+  <rect x="653" y="70" width="197" height="80" rx="13" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+  <rect x="654" y="71" width="195" height="1" fill="#ffffff" opacity="0.07"/>
+
+  <!-- KPI 4 -->
+  <rect x="862" y="70" width="197" height="80" rx="13" fill="url(#kpiGrad)" filter="url(#softShadow)"/>
+  <rect x="862" y="70" width="197" height="80" rx="13" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+  <rect x="863" y="71" width="195" height="1" fill="#ffffff" opacity="0.07"/>
+
+  <!-- KPI 5 -->
+  <rect x="1071" y="70" width="197" height="80" rx="13" fill="url(#kpiGrad)" filter="url(#softShadow)"/>
+  <rect x="1071" y="70" width="197" height="80" rx="13" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+  <rect x="1072" y="71" width="195" height="1" fill="#ffffff" opacity="0.07"/>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- FILTER PANEL — tall left column            -->
+  <!-- y=70, height=638                           -->
+  <!-- ══════════════════════════════════════════ -->
+  <rect x="12" y="70" width="210" height="638" rx="16" fill="url(#filterPanelGrad)" filter="url(#softShadow)"/>
+  <rect x="12" y="70" width="210" height="638" rx="16" fill="url(#meshSpot1)"/>
+  <rect x="12" y="70" width="210" height="638" rx="16" fill="url(#meshSpot2)"/>
+  <rect x="12" y="70" width="210" height="638" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="1.2"/>
+  <rect x="13" y="71" width="208" height="1" fill="#ffffff" opacity="0.08"/>
+
+  <!-- Separator line below KPI row -->
+  <rect x="235" y="158" width="1033" height="1" fill="url(#accentLine)" opacity="0.22"/>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- TOP-MID CHART: Total Txn by Fraud Type     -->
+  <!-- y=162, height=232                          -->
+  <!-- ══════════════════════════════════════════ -->
+  <rect x="235" y="162" width="600" height="232" rx="14" fill="url(#chartPanelGrad)" filter="url(#softShadow)"/>
+  <rect x="235" y="162" width="600" height="232" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+  <rect x="236" y="163" width="598" height="1" fill="#ffffff" opacity="0.06"/>
+  <rect x="235" y="162" width="600" height="232" rx="14" fill="url(#ambientGlow1)" opacity="0.4"/>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- TOP-RIGHT CHART: Txn by Fraud Risk         -->
+  <!-- y=162, height=232                          -->
+  <!-- ══════════════════════════════════════════ -->
+  <rect x="849" y="162" width="419" height="232" rx="14" fill="url(#rightPanelGrad)" filter="url(#softShadow)"/>
+  <rect x="849" y="162" width="419" height="232" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+  <rect x="850" y="163" width="417" height="1" fill="#ffffff" opacity="0.06"/>
+  <rect x="849" y="162" width="419" height="232" rx="14" fill="url(#ambientGlow2)" opacity="0.3"/>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- BOTTOM-LEFT CHART: Fraudulent by State     -->
+  <!-- y=402, height=306                          -->
+  <!-- ══════════════════════════════════════════ -->
+  <rect x="235" y="402" width="600" height="306" rx="14" fill="url(#chartPanelGrad)" filter="url(#softShadow)"/>
+  <rect x="235" y="402" width="600" height="306" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+  <rect x="236" y="403" width="598" height="1" fill="#ffffff" opacity="0.06"/>
+  <rect x="235" y="402" width="600" height="306" rx="14" fill="url(#warmGlow)"/>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- BOTTOM-RIGHT CHART: Fraudulent by Month    -->
+  <!-- y=402, height=306                          -->
+  <!-- ══════════════════════════════════════════ -->
+  <rect x="849" y="402" width="419" height="306" rx="14" fill="url(#rightPanelGrad)" filter="url(#softShadow)"/>
+  <rect x="849" y="402" width="419" height="306" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+  <rect x="850" y="403" width="417" height="1" fill="#ffffff" opacity="0.06"/>
+  <rect x="849" y="402" width="419" height="306" rx="14" fill="url(#violetGlow)"/>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- DECORATIVE DETAILS                         -->
+  <!-- ══════════════════════════════════════════ -->
+  <rect x="235" y="62" width="1033" height="648" fill="url(#dots)"/>
+
+  <!-- Corner accent dots -->
+  <circle cx="214" cy="84" r="2.5" fill="#7c5cbf" opacity="0.4"/>
+  <circle cx="826" cy="176" r="2.5" fill="#4a8fe8" opacity="0.35"/>
+  <circle cx="1259" cy="176" r="2.5" fill="#4a8fe8" opacity="0.3"/>
+  <circle cx="826" cy="416" r="2.5" fill="#e8a24a" opacity="0.3"/>
+  <circle cx="1259" cy="416" r="2.5" fill="#7c5cbf" opacity="0.35"/>
+
+  <!-- Outer border -->
+  <rect x="1" y="1" width="1278" height="718" rx="15" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1.5"/>
+
+</svg>
