@@ -1,6 +1,6 @@
 # Weather Data Analysis Dashboard
-<img width="630" height="400" alt="image" src="https://github.com/user-attachments/assets/b5fbff01-86c7-4af7-87f7-b7a8b781214d" />
-<img width="630" height="400" alt="image" src="https://github.com/user-attachments/assets/a265bebe-453c-4213-b9c5-f09de709c671" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/b5fbff01-86c7-4af7-87f7-b7a8b781214d" />
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/a265bebe-453c-4213-b9c5-f09de709c671" />
 
 
 ## 📊 Project Overview
