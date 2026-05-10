@@ -2,11 +2,17 @@
 ### Power BI Interactive Dashboard | Data Analysis Project | Fintech | 
 
 ---
-<img width="1080" height="1080" alt="Image" src="https://github.com/user-attachments/assets/70b72e8e-432f-4fe1-9796-006520b4f1e8" />
 
-<img width="1080" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a6b405ae-8199-4005-afad-589bced4881d" />
+<img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/70b72e8e-432f-4fe1-9796-006520b4f1e8" />
 
-<img width="1080" height="1080" alt="Image" src="https://github.com/user-attachments/assets/9a8d8486-fbf3-4af4-b051-b3d4054e1af6" />
+<br><br>
+
+<img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/a6b405ae-8199-4005-afad-589bced4881d" />
+
+<br><br>
+
+<img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/9a8d8486-fbf3-4af4-b051-b3d4054e1af6" />
+
 
 ## 📌 Project Overview
 
