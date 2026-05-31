@@ -1,6 +1,6 @@
 # Sales Insights of Atliq Hardware
 
-<img width="800" height="600" alt="Screenshot 2025-12-04 184633" src="https://github.com/user-attachments/assets/63727ff6-dcda-4e54-835e-66de42054cf5" />
+<img width="800" height="500" alt="Screenshot 2025-12-04 184633" src="https://github.com/user-attachments/assets/63727ff6-dcda-4e54-835e-66de42054cf5" />
 
 
 ## Project Overview
