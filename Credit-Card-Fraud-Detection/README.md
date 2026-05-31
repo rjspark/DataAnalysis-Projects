@@ -11,7 +11,7 @@
 
 <br><br>
 
-<img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/9a8d8486-fbf3-4af4-b051-b3d4054e1af6" />
+<img width="800" height="550" alt="Image" src="https://github.com/user-attachments/assets/9a8d8486-fbf3-4af4-b051-b3d4054e1af6" />
 
 
 ## 📌 Project Overview
